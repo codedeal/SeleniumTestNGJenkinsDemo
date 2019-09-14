@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="1" name="TestSuite" time="0.142" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRM"/>
+    <property name="PWD" value="/Users/Audi/Documents/Joke"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/Audi/.jenkins"/>
+    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/mysql/bin/:/Users/Audi/Library/Developer/Xamarin/android-sdk-macosx/tools:/Users/Audi/Library/Developer/Xamarin/android-sdk-macosx/tools/bin/:/Users/Audi/Library/Developer/Xamarin/android-sdk-macosx/platform-tools/:/Users/Audi/Library/Developer/Xamarin/android-sdk-macosx/build-tools/28.0.0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e13b753f793aed42"/>
+    <property name="POM_ARTIFACTID" value="FoodAppTest"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="19D69E2B-50B7-49B3-943F-81776E71BB3B"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FoodAppTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="Audi"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186a8"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRM"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRM/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="TMPDIR" value="/var/folders/jv/fwblflgx4rs4gn5n9lh3fcwc0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="DISPLAY" value="/private/tmp/com.apple.launchd.iZBDIM5kXa/org.macosforge.xquartz:0"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRM/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRM/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="Audi"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/Audi"/>
+    <property name="POM_GROUPID" value="FoodApp"/>
+    <property name="user.home" value="/Users/Audi"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRM-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e13b753f793aed42"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/Audi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.GBfHB5kLyJ/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven"/>
+    <property name="java.class.path" value="/Users/Audi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven/boot/plexus-classworlds-2.6.0.jar:/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven /Users/Audi/.jenkins/war/WEB-INF/lib/remoting-3.33.jar /Users/Audi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/Audi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 55340"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven"/>
+    <property name="java.io.tmpdir" value="/var/folders/jv/fwblflgx4rs4gn5n9lh3fcwc0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/Audi/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRM/4/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/Audi"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.BGrusKa3K4/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="JAVA_MAIN_CLASS_21900" value="Main"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="java.ext.dirs" value="/Users/Audi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/Audi/Switch/FoodAppTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRM/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="JAVA_ARCH" value="x86_64"/>
+    <property name="MAVEN_HOME" value="/Users/Audi/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRMTestMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="ANDROID_HOME" value="/Users/Audi/Library/Developer/Xamarin/android-sdk-macosx"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="404.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/Audi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="/Users/Audi/.jenkins/workspace/FreeCRM"/>
+    <property name="maven3.interceptor.common" value="/Users/Audi/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="Audi"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.029">
+    <failure message="expected:&lt;Authentication required&gt; but was:&lt;Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;Authentication required&gt; but was:&lt;Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:44)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@3b22cdd0
+Before navigating to: &apos;https://www.amazon.in//&apos;
+Navigated to:&apos;https://www.amazon.in//&apos;
+INFO [Logs]: in Login Page
+return it is null
+INFO [Logs]: Signin before moving towards the Login Page
+return it is null
+INFO [Logs]: Login with username9921116285 and password Siemens@123
+return it is null
+Trying to find Element By : By.xpath: //*[@id=&quot;nav-link-accountList&quot;]
+Found Element By : By.xpath: //*[@id=&quot;nav-link-accountList&quot;]
+Trying to click on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;nav-link-accountList&quot;]]
+Clicked on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;nav-link-accountList&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;ap_email&quot;]
+Found Element By : By.xpath: //*[@id=&quot;ap_email&quot;]
+Trying to find Element By : By.xpath: //*[@id=&quot;continue&quot;]
+Found Element By : By.xpath: //*[@id=&quot;continue&quot;]
+Trying to click on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;continue&quot;]]
+Clicked on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;continue&quot;]]
+Trying to find Element By : By.xpath: //*[@id=&quot;ap_password&quot;]
+Found Element By : By.xpath: //*[@id=&quot;ap_password&quot;]
+Trying to find Element By : By.xpath: //*[@id=&quot;signInSubmit&quot;]
+Found Element By : By.xpath: //*[@id=&quot;signInSubmit&quot;]
+Trying to click on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;signInSubmit&quot;]]
+Clicked on: [[ChromeDriver: chrome on MAC (5803fef2c055474e7a539ff3719323f0)] -&gt; xpath: //*[@id=&quot;signInSubmit&quot;]]
+INFO [Logs]: Home Page got intialized
+return it is null
+INFO [Logs]: verify homePage title test started
+return it is null
+</system-out>
+    <system-err>Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 40053
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 10, 2019 11:55:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.113"/>
+</testsuite>
