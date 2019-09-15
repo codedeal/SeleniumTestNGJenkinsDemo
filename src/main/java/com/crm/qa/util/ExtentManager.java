@@ -15,17 +15,16 @@ public class ExtentManager
 {
 	    static ExtentReports extent;
 	    static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
-	    //private static ExtentReports extent = ExtentManager.getInstance();
+	    
 	    public static ExtentReports getInstance() {
-	        return extent;
+	    	if(extent!=null)
+	    		return extent;
+	    	else
+	    		return createInstance("amazonReports.html");
 	    }
-	    public static File setFilepath(String appName) {
-	        File classpathRoot = new File(System.getProperty("user.dir"));
-	        File appDir = new File(classpathRoot, "/test_output/");
-	        File app = new File(appDir, appName);
-	        return app;
-	    }
+	   
 	    public static ExtentReports createInstance(String fileName) {
+	    	
 	        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(setFilepath(fileName));
 	        htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
 	        htmlReporter.config().setChartVisibilityOnOpen(true);
@@ -33,10 +32,15 @@ public class ExtentManager
 	        htmlReporter.config().setDocumentTitle(fileName);
 	        htmlReporter.config().setEncoding("utf-8");
 	        htmlReporter.config().setReportName(fileName);
-
 	        extent = new ExtentReports();
 	        extent.attachReporter(htmlReporter);
-
 	        return extent;
+	    }
+	    
+	    public static File setFilepath(String appName) {
+	        File classpathRoot = new File(System.getProperty("user.dir"));
+	        File appDir = new File(classpathRoot, "/test-output/");
+	        File app = new File(appDir, appName);
+	        return app;
 	    }
 }

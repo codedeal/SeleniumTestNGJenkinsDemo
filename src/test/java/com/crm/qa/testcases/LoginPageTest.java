@@ -1,6 +1,7 @@
 package com.crm.qa.testcases;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -46,8 +47,9 @@ public class LoginPageTest extends TestBase
 	}
 	
 	@Test(priority=3)
-	public void loginTest(){
+	public void loginTest() throws InterruptedException{
 		Logs.info("Login and move to home page");
+		Thread.sleep(3000);
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
@@ -57,5 +59,6 @@ public class LoginPageTest extends TestBase
 		Logs.info("Exit the TC");
 		driver.quit();
 	}
+
 
 }
